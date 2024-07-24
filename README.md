@@ -38,7 +38,7 @@ Make the main script and installation script executable:
 
 ### Run the Installation Script
 ```bash
-    sudo ./install.sh
+    sudo ./installion.sh
 ```
 
 ### Verify Installation
@@ -51,7 +51,7 @@ After running the installation script, verify the installation and functionality
 ```
 
 ### Logging
-Logs are stored in /var/log/devopsfetch/. 
+Logs are stored in /var/log/devopsfetch/devopsfetch.log
 
 The logs include detailed information about user activities, open ports, Nginx configurations, Docker statuses, and other relevant server information.
 

@@ -5,7 +5,7 @@ print_box() {
     local length=${#s}
     local padding=5
     local total_length=$((length + 2 * padding))
-    local border=$(printf '%*s' "$total_length" | tr ' ' '#####')
+    local border=$(printf '%*s' "$total_length" | tr ' ' '#')
     
     echo "$border"
     printf "#%*s%-*s%*s#\n" $padding '' $length "$s" $padding ''
