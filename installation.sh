@@ -12,7 +12,7 @@ print_box() {
     echo "$border"
 }
 
-print_box "INSTALLATION PROCESS BEGINS"
+print_box "INSTALLATION BEGINS"
 
 # Update and install necessary packages
 sudo apt-get update

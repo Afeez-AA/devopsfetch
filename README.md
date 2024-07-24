@@ -32,8 +32,8 @@ cd devopsfetch
 ### Make Scripts Executable
 Make the main script and installation script executable:
 ```bash
-    chmod +x devopsfetch.sh
-    chmod +x install.sh
+    sudo chmod +x devopsfetch.sh
+    sudo chmod +x install.sh
 ```
 
 ### Run the Installation Script
@@ -47,12 +47,10 @@ After running the installation script, verify the installation and functionality
     devopsfecth -p
     devopsfecth -d
     devopsfecth -u
-    devopsfecth -t
+    devopsfecth -t <START DATE> --OPTIONAL <END DATE>
 ```
 
 ### Logging
 Logs are stored in /var/log/devopsfetch/devopsfetch.log
 
 The logs include detailed information about user activities, open ports, Nginx configurations, Docker statuses, and other relevant server information.
-
-For detailed documentation, please click here
